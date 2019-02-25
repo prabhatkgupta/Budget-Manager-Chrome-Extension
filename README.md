@@ -1,4 +1,4 @@
-# Budget Manager
+# Budget-Manager-Chrome-Extension
 A simple Google Chrome Extension using Chrome API and Some Javascript.
 
 This Extension when added to your Chrome Browser is able to store the monthly expenditure of any purchase that you have made online
