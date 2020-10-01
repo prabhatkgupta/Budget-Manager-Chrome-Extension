@@ -4,6 +4,13 @@ A simple Google Chrome Extension using Chrome API and Some Javascript.
 This Extension when added to your Chrome Browser is able to store the monthly expenditure of any purchase that you have made online
 There is also a budget line which can be set by the person in advance to restrict the limit of money spent.
 
+This chrome extension is easy to use. You just have to specify a monthly or weekly limit of money that you want to spend.
+
+Now whenever you make any purchase online then it will track the amount of money being spend and gives you instant notification
+of whether you are exceeding your budget. 
+
+You can view a demo of the application in the pictures attached below.
+
 ![screenshot 1](https://user-images.githubusercontent.com/42283586/53358762-307dce80-3957-11e9-830c-96e39c8b4341.png)
 ![screenshot 3](https://user-images.githubusercontent.com/42283586/53358779-396ea000-3957-11e9-864d-4273d0a09bf8.png)
 ![screenshot 19](https://user-images.githubusercontent.com/42283586/53358793-412e4480-3957-11e9-911c-35a068782d37.png)

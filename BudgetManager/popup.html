@@ -2,15 +2,45 @@
 <html>
     <head>
         <title>Budget Manager</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <script src="jquery-3.1.0.min.js"></script>
         <script src="popup.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <h1>Budget Manager</h1>
-        <h2>Total Spent: <span id="total">0</span></h2>
-        <h2>Limit: <span id="limit">0</span></h2>
-        <h3>Enter Amount</h3>
-        <input id="amount" type="text">
-        <input id="spendAmount" type="submit" value="Spend"/>
+        <div>
+            <h1>Budget Manager</h1>
+            <h2><label for="total">Total Spent: </label><span name="total" id="total">0</span></h2>
+            <h2><label for="limit">Limit: </label><span name="limit" id="limit">0</span></h2>
+            <h3>Enter Amount That you want to save from your budget</h3>
+            <input id="amount" type="text">
+            <input id="spendAmount" type="submit" value="Spend"/>
+        </div>
+
+        <div>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-info">Info</button>
+
+            <div class="card">
+              <div class="card-header">
+                Quote
+              </div>
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                  <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                </blockquote>
+              </div>
+            </div>
+
+            <div class="jumbotron">
+                <h1 class="display-4">This is Chrome Budget Manager</h1>
+                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                <hr class="my-4">
+                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eligendi fuga ipsum minima neque perferendis quaerat ullam. Distinctio, quidem, tenetur?</p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </div>
+        </div>
     </body>
 </html>
